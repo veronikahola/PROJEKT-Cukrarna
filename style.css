@@ -161,6 +161,7 @@ li {
 
 .podvitejte {
 	display: flex;
+	align-items: center;
 }
 
 .vitejtelevy {
@@ -201,6 +202,7 @@ img.imgvitej {
 	flex-direction: column;
 	background-color: white;
 	border-radius: 5px;
+	box-shadow: lightgrey 0px 0px 8px 0px;
 }
 
 .produkt2 {
@@ -237,6 +239,7 @@ img.imgvitej {
 
 .podpristup {
 	display: flex;
+	align-items: center;
 }
 
 .pristuppravy {
