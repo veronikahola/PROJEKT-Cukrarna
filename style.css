@@ -31,5 +31,233 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
 }
 
+.vse {
+	display: flex;
+	flex-direction: column;
+}
+
+.podhlavicka,
+.podhero,
+.podvitejte,
+.podnabidka,
+.podpristup,
+.podpaticka {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header,
+footer {
+	padding: 30px 0px;
+}
+
+.hero,
+.vitejte,
+.nabidka,
+.pristup {
+	padding: 80px 0px;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+}
+
+/* tlačítka hlavička */
+a.menu {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+a.menu:hover {
+	color: white;
+	border-radius: 20px;
+	background-color: #f195b2;
+}
+
+/* tlačítka vitejte */
+
+a.tlacitkovitejte {
+	text-decoration: none;
+	color: white;
+	padding: 15px 40px;
+	background-color: #f195b2;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+
+a.tlacitkovitejte:hover {
+	background-color: #d2567d;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+
+/* hlavička */
+
+img.logo {
+	width: 170px;
+}
+
+.podhlavicka {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* sekce hero */
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.podhero {
+	padding-right: 40%;
+}
+
+.hero p {
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+}
+
+/* sekce vitejte */
+
+.podvitejte {
+	display: flex;
+}
+
+.vitejtelevy {
+	margin-right: 15px;
+	flex-basis: 50%;
+}
+
+.vitejtepravy {
+	flex-basis: 50%;
+	margin-left: 15px;
+}
+
+img.imgvitej {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.margin {
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+/* sekce nabidka */
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+.flexnabidka {
+	display: flex;
+}
+
+.produkt1,
+.produkt2,
+.produkt3,
+.produkt4 {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.produkt2 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.produkt3 {
+	margin-right: 30px;
+}
+
+.flex1a,
+.flex2a,
+.flex3a,
+.flex4a {
+	text-align: center;
+}
+
+.flex1b,
+.flex2b,
+.flex3b,
+.flex4b {
+	padding: 20px;
+	text-align: center;
+}
+
+.nabidka img {
+	border-radius: 5px 5px 0px 0px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* sekce pristup */
+
+.podpristup {
+	display: flex;
+}
+
+.pristuppravy {
+	margin-left: 15px;
+	flex-basis: 50%;
+}
+
+.pristuplevy {
+	flex-basis: 50%;
+	margin-right: 15px;
+}
+
+img.imgpristup {
+	width: 100%;
+	border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+	background-color: #303339;
+	color: white;
+	text-align: center;
+}
