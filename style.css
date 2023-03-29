@@ -147,14 +147,15 @@ li {
 	background-attachment: fixed;
 }
 
-.podhero {
-	padding-right: 40%;
-}
-
 .hero p {
 	color: white;
 	font-size: 24px;
 	font-style: italic;
+	padding-right: 40%;
+}
+
+.hero h1 {
+	padding-right: 40%;
 }
 
 /* sekce vitejte */
